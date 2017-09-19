@@ -20,7 +20,7 @@ function generateSeats(row) {
 
 function managePerson(arr, rowSeats) {
 	let seats = generateSeats(rowSeats)
-	let row = 0
+	let row = 0;
 	for(let i=0; i<arr.length-1; i++) {
 		seats[row].push(arr[i])
 		if(row < 2) {

@@ -1,3 +1,3 @@
 # debug-susun-kursi
 
-https://docs.google.com/a/hacktiv8.com/document/d/1nneWs_WgnoM0fUXFGqwgUYIddpmkshzzCF0ZMvB-Smc/edit?usp=sharing
+https://docs.google.com/document/d/1ILiRukHfJ6YUzshn6XLO0Sor76RNCYoPbLqfMseB_PQ/edit?usp=sharing

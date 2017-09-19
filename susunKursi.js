@@ -12,29 +12,28 @@
 
 function generateSeats(row) {
 	let seats = []
-	for(let i=0; i<rowa; i++) {
-		seat.push([])
+	for(let i=0; i<row; i++) { //kelebihan huruf a
+		seats.push([]) //kurang huruf s
 	}
 	return seats
 }
 
 function managePerson(arr, rowSeats) {
-	let seats = generateSeat(rowSeats)
+	let seats = generateSeats(rowSeats) //kurang s
 	let row = 0
-
-	for(let i=0; i<arr.length-1; i++) {
-		seat[row].push(arr[i])
-		if(row <= 2) {
+	for(let i=0; i<arr.length; i++) {
+		seats[row].push(arr[i]) //kurang huruf s pada row
+		if(row < rowSeats-1) { //sebelumnya <= 2
 			row++
 		} else {
-			row == 0
+			row = 0 //kelebihan =
 		}
 	}
 	printSeats(seats)
 }
 
 function printSeats(seats) {
-	for(let i=1; i<seats.length; i++) {
+	for(let i=0; i<seats.length; i++) { //mulai dari 1
 		console.log(`Baris ${i} : `, seats[i])
 	}
 }

@@ -15,8 +15,10 @@ function generateSeats(row) {
 	for(let i=0; i<row; i++) {//rowa diganti dengan rowa
 		seats.push([])//ditambahkan s pada seat
 	}
-	return seats
+	return seats;
 }
+
+
 
 function managePerson(arr, rowSeats) {
 	let seats = generateSeats(rowSeats)//tambahkan s pada generateSeat
@@ -31,8 +33,9 @@ function managePerson(arr, rowSeats) {
 			row = 0//row==0 diganti dengan row=0
 		}
 	}
-	printSeats(seats)
+	printSeats(seats);
 }
+
 
 function printSeats(seats) {
 	for(let i=0; i<seats.length; i++) {
@@ -40,4 +43,4 @@ function printSeats(seats) {
 	}
 }
 
-managePerson(['a','b','c','d','e','f','g','h','i','j'], 3)
+console.log(managePerson(['a','b','c','d','e','f','g','h','i','j'], 3));

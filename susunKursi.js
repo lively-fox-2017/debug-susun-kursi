@@ -23,7 +23,7 @@ function managePerson(arr, rowSeats) {
 	let row = 0;
 	for(let i=0; i<arr.length; i++) {
 		seats[row].push(arr[i])
-		if(row < 2) {
+		if(row < rowSeats-1) {
 			row+=1;
 		} else {
 			row = 0;
@@ -39,4 +39,4 @@ function printSeats(seats) {
 	}
 }
 
-managePerson(['a','b','c','d','e','f','g','h','i','j'], 3)
+managePerson(['a','b','c','d','e','f','g','h','i','j'], 5)
